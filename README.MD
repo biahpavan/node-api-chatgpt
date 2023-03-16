@@ -47,6 +47,10 @@ $ npm start
 Feito isso o serviço de backend estará funcionando na porta :5000.
 
 * Para usar a biblioteca openAi
+A biblioteca precisa ser configurada com a chave 'secret key', que está disponível no site da openAi, informando a chave da API como uma variável de ambiente em .env. antes da execução.
+
+Formato do arquivo .env (criar na raiz)
 ```bash
-A biblioteca precisa ser configurada com a chave 'secret key', que está disponível no site da openAi, informando a chave da API como uma variável de ambiente em .env. antes da execução
+PORT=5000 //opcional, se informado determinará a porta do serviço
+OPEN_AI_KEY="seu secret aqui" //obrigatório
 ```
